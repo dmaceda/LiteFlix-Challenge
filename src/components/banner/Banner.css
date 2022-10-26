@@ -1,0 +1,116 @@
+
+
+
+.now_playing h5{
+    padding-top: 330px;
+    font-family: 'BebasNeue-Light';
+    font-size: 20px;
+    font-weight:400;
+    line-height: 24px;
+    letter-spacing: 4px;
+    color: #fff;
+}
+
+.now_playing h1{
+    margin-top: 24px;
+    font-size: 120px;
+    font-weight:400;
+    font-weight: 100;
+    line-height: 100px;
+    letter-spacing: 16px;
+    color: var(--color-primary);
+    font-family: 'Bebas Neue';
+    font-weight: 700;
+    animation: move 2s ease-in;
+}
+
+.btn_1{
+    width: 248px;
+    background-color: var(--color-bg);
+    border: none;
+    font-family: 'BebasNeue-Regular';
+    color: #fff;
+    font-size: 18px;
+    font-weight:400;
+    letter-spacing: 4px;
+    cursor: pointer;
+    padding:  21px;
+    margin-right: 24px;
+    margin-top: 32px;
+    
+}
+
+.play {
+    margin-right: 14px;
+}
+
+.btn_2{
+    width: 248px;
+    background:  rgba(36, 36, 36, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    font-family: 'BebasNeue-Regular';
+    font-weight:400;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 4px;
+    cursor: pointer;
+    padding:  21px;
+}
+
+
+
+
+@keyframes zoom {
+    0% {
+        transform:scale(1.2)
+    }
+
+}
+
+/*********** MEDIA QUERIES (MEDIUM DEVICES ************/
+@media screen and (max-width: 1024px) {
+    
+}
+
+/*********** MEDIA QUERIES (SMALL DEVICES ************/
+@media screen and (max-width: 600px) {
+
+   .now_playing h1 {
+        font-size: 67px;
+        font-weight: 700;
+        line-height: 78px;
+        letter-spacing: 12px;
+        text-align: center;
+   }
+
+   .now_playing h5 {
+    padding-top: 214px;
+    text-align: center;
+   }
+
+   .buttons {
+    margin: 0, auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   }
+   .btn_1 {
+    margin-right: 0;
+   }
+
+   .btn_2 {
+    margin-top: 16px;
+   }
+   
+}
+
+
+
+
+
+
+    
+
+
+

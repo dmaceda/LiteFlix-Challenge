@@ -1,0 +1,264 @@
+.form_container {
+    background-color: var(--color-bg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: auto;
+    min-height: 200px;
+    margin: 0 auto;
+}
+
+
+.form {
+    width: 55%;
+    position: absolute;
+    top: 170px;
+    left: 300px;
+    transition: all 0.4s;
+    z-index: 5;
+    transform: translateY(150%);
+    z-index: 8;
+}
+
+.form_open{
+    transform: translateY(0%);
+}
+
+
+.drop_area {
+    border: 2px dashed #fff;
+    width: 80%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 48px;
+}
+
+.form_title{
+    color: var(--color-primary);
+    font-family: 'BebasNeue-Regular';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 4px;
+    text-align: left;
+    margin-bottom: 48px;
+}
+
+
+
+.drop_area input {
+    display: none;
+}
+
+#label {
+    color: #fff;
+    cursor: pointer;
+    font-family: 'BebasNeue-Regular';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 4px;
+    text-align: left;
+    margin-left: 10px;
+
+}
+
+.drop_area h2 {
+    color: #fff;
+    font-family: 'BebasNeue-Light';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 4px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+#input_name {
+    margin-bottom: 48px;
+    border: 0;
+    width: 35%;
+    height: 56px;
+    background-color: transparent;
+    outline: none;
+    color: #fff;
+    font-family: 'BebasNeue-Regular';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 4px;
+    text-align: center;
+    border-bottom:2px solid #fff;
+}
+
+.form_btn {
+    margin-bottom: 48px;
+    width: 35%;
+    background: #fff;
+    border: none;
+    font-family: 'BebasNeue-Regular';
+    font-weight:400;
+    color: var(--color-bg);
+    font-size: 18px;
+    letter-spacing: 4px;
+    cursor: pointer;
+    padding: 21px;
+}
+
+.form_btn_disabled {
+    margin-bottom: 48px;
+    width: 35%;
+    background: rgba(255, 255, 255, 0.5);
+    border: none;
+    font-family: 'BebasNeue-Regular';
+    font-weight:400;
+    color: var(--color-bg);
+    font-size: 18px;
+    letter-spacing: 4px;
+    padding: 21px;
+}
+
+#input_name::-webkit-input-placeholder{
+    color:#fff;
+    font-family: 'BebasNeue-Regular';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+.close_form_container{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 24px;
+}
+
+.progress_area{
+    width: 100%;
+    height: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.progress {
+    height: 100%;
+    width: 100%;
+    background-color: var(--color-primary);
+}
+
+.progress_error{
+    height: 100%;
+    width: 100%;
+    background-color: var(--color-variant);
+}
+
+
+
+.porcent_progress {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+#load {
+    color: #fff;
+    font-family: 'BebasNeue-Light';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 4px;
+    text-align: left;
+}
+
+#porcent {
+    color: #fff;
+    font-family: 'BebasNeue-Regular';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 4px;
+    text-align: left;
+    margin-right: 10px;
+}
+
+.drop_status {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.drop_status h2 {
+    color: #fff;
+    font-family: 'BebasNeue-Light';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 4px;
+    text-align: left;
+}
+
+#load_ok {
+    color: var(--color-primary);
+    font-family: 'BebasNeue-Light';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 4px;
+    text-align: left;
+}
+.progress_container {
+    display: flex;
+}
+
+.progress_bar{
+    width: 80%;
+}
+
+.success_info {
+    color: #fff;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#success_name{
+    font-family: 'BebasNeue-Regular';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 4px;
+    text-align: center;
+    margin-bottom: 92px;
+    
+}
+
+#success_congrats{
+font-family: 'BebasNeue-Regular';
+font-size: 24px;
+font-weight: 700;
+line-height: 26px;
+letter-spacing: 4px;
+text-align: center;
+margin-bottom: 24px;
+
+}
+
+#logo_form {
+    margin-bottom: 72px;
+    margin-top: 25px;
+}
+
+
+
+

@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'BebasNeue-Regular';
+}
+
+
+body {
+  background: var(--color-bg);
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+
+:root {
+  --color-bg: #242424;
+  --color-primary: #64EEBC;
+  --color-variant: #FF0000;
+}
+
+
+@font-face {
+  font-family: BebasNeue-Light;
+  src: url(../src/assets/fonts/BebasNeue-Light.ttf);
+}
+
+@font-face {
+  font-family: BebasNeue-Regular;
+  src: url(../src/assets/fonts/BebasNeueRegular.ttf);
+}
+
+
+

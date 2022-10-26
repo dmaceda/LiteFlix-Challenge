@@ -1,0 +1,161 @@
+
+ .card_cont {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    background-color: var(--color-bg);
+    cursor: pointer;
+    width: 68%;
+    margin-right: 0px;
+    float: right;
+ }
+
+ .card_cont:hover .rating_container {
+    opacity: 1;
+ }
+
+ .card_cont:hover .card_image{
+    opacity: 0.2;
+ }
+
+ .card_cont:hover .card_play_container{
+   flex-direction: row;
+   justify-content: flex-start;
+}
+
+.card_cont:hover .card_title{
+   margin-top: 20px;
+}
+
+.card_cont:hover .card_play{
+   margin-top: 8px;
+   margin-right: 10px;
+   width: 24px;
+}
+
+ .card_cont:hover .card_title {
+    font-size: 12px;
+    margin-bottom: 22px; 
+    text-align: left;
+ }
+
+ .card_image{
+    max-width: 100%;
+    display: block;
+    border-radius: 4px;
+    animation: zoom 3s; 
+ }
+
+ .card{
+    overflow: hidden;
+    position: relative;
+
+ }
+
+ .description {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 15px;
+    color: #fff;
+    
+ }
+
+ .card_title {
+    font-family: 'BebasNeue-Regular';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 4px;
+    text-align: center;
+ }
+
+ .card_play_container {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+ }
+
+
+ .card_play {
+   width: 40px;
+   margin-bottom: 10px;
+   border-radius: 20px;
+   background-color: rgba(109, 108, 108, 0.267);
+}
+
+ .card_play:hover {
+   filter: invert(100%);
+ }
+
+
+
+
+
+ .rating_container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    margin-bottom: 0;
+    opacity: 0;
+ }
+
+ .rating_container p {
+    font-family: 'BebasNeue-Light';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 2px;
+    text-align: right;
+
+ }
+
+ .rating_left{
+    display: flex;
+    float: left;
+    width: 50%;
+    align-items: center;
+    justify-content: flex-start;
+ }
+
+ .rating_left p {
+    margin-left: 5px;
+
+ }
+
+ .year{
+    float: right;
+    width: 50%;
+ }
+
+ .filter {
+   position:absolute;
+   left: 0%;
+   bottom: 0%;
+   background: linear-gradient(rgba(255, 255, 255, 0), rgba(12, 12, 12, 0.411));
+   height: 50%;
+   width: 100%;
+ }
+
+ /*********** MEDIA QUERIES (MEDIUM DEVICES ************/
+ @media screen and (max-width: 1024px) {
+}
+
+/*********** MEDIA QUERIES (SMALL DEVICES ************/
+@media screen and (max-width: 600px) {
+.card_cont {
+   width: 100%;
+}
+.card_play {
+   width: 48px;
+   margin-bottom: 24px;
+}
+
+}
+
+

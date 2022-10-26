@@ -1,0 +1,15 @@
+.backdrop_modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(36, 36, 36, 0.5);
+    display: none;
+    z-index: 7;
+}
+
+.backdrop_modal_open {
+    display: block;
+}
+
