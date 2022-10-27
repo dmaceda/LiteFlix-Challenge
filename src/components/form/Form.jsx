@@ -119,6 +119,9 @@ const Form = ({ modal, closeModal, closeAndRefresh }) => {
                     </div> 
                 }
 
+                {
+                    success && <div className="invisible"></div>
+                }
                 {/* Pantalla final de informacion de pelicula cargada correctamente */}
                 {   success &&
                     <div className="success_info">
@@ -163,6 +166,8 @@ const Form = ({ modal, closeModal, closeAndRefresh }) => {
                     <button type='button' onClick={ saveData } className={inputImageAux && inputNameAux ? 'form_btn' : 'form_btn_disabled'}
                     disabled={!inputImageAux && !inputNameAux }>SUBIR PELÍCULA</button>
                 }
+                
+                {success && <div className="invisible"></div> }
 
                 {/* Botón salir dispositivos mobile */}
                 { !success && <button type='button' onClick={closeModal} className='form_btn_close'>SALIR</button>}

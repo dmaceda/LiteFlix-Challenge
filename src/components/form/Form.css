@@ -1,20 +1,16 @@
 
 .form {
-    position: absolute;
+    position: fixed;
     width: 60%;
     height: 50%;
     transition: all 0.4s;
-    margin-left: auto;
-    margin-right: auto;
+    bottom: -2000px;
     left: 20%;
-    top: 25%;
     z-index: 10;
-    transform: translate(-150%);
 }
 
 .form_open{
-    transform: translateY(0%);
-    transition: all 0.4s;
+    bottom: 25%;
 }
 
 .form_container {
@@ -42,7 +38,7 @@
 }
 
 .drop_area {
-    border: 2px dashed #fff;
+    border: 1px dashed #fff;
     width: 80%;
     height: 100px;
     display: flex;
@@ -306,31 +302,10 @@ margin-bottom: 24px;
          justify-content: space-between;
          width: 95%;
       }
-      .drop_area_xs {
-         border: 1px dashed #fff;
-         width: 95%;
-         height: 81px;
-         display: flex;
-         align-items: center;
-         justify-content: center;
-     }
-     .drop_area {
-         display: none;
-     }
-     .drop_area_xs input {
-         display: none;
-     }
+      
      
-     .drop_area_xs h2 {
-         color: #fff;
-         font-family: 'BebasNeue-Light';
-         font-size: 16px;
-         font-weight: 400;
-         line-height: 19px;
-         letter-spacing: 4px;
-         text-align: left;
-         margin-left: 10px;
-     }
+     
+     
      .form_title{
          margin-bottom: 50px;
          margin-top: 70px;
@@ -367,6 +342,12 @@ margin-bottom: 24px;
      #logo_form {
          display: none;
      }
+
+     .invisible {
+        width: 100%;
+        height: 100px;
+        margin-top: 100px;
+    }
     
 }
 
@@ -379,6 +360,7 @@ margin-bottom: 24px;
        left: 0;
        top: 0;
        z-index: 10;
+       height: 53%;
        height: 100%;
      }
      .form_open{
@@ -460,6 +442,8 @@ margin-bottom: 24px;
     #logo_form {
         display: none;
     }
+    
+
 
     
 

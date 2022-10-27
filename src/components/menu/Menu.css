@@ -1,18 +1,17 @@
 .sidebar {
     background-color: #242424d8;
     color: #fff;
-    position: absolute;
+    position: fixed;
     top: 0;
-    right: 0;
-    height: 100vh;
+    right: -3000px;
+    height: 100%;
     width: 51.5%;
-    transform: translate(-200%);
     transition: all 0.4s;
     z-index: 5;
 }
 
 .sidebar_open{
-    transform: translate(0%);
+    right: 0;
 }
 
 .close{
