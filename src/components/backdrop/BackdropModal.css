@@ -6,7 +6,7 @@
     height: 100vh;
     background-color: rgba(36, 36, 36, 0.5);
     display: none;
-    z-index: 7;
+    z-index: 4;
 }
 
 .backdrop_modal_open {

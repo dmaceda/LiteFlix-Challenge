@@ -76,7 +76,9 @@ const Home = () => {
     <div>
       <div className='best_container'>
               {/* Formulario carga de película*/}
-              {/* <Form modal={modal} closeModal={toggleModal} closeAndRefresh={toggleRefresh}/> */}
+             
+                <Form modal={modal} closeModal={toggleModal} closeAndRefresh={toggleRefresh}/> 
+              
 
               {/* Menú lateral*/}
               <Menu sidebar={sidebar} closeSidebar={toggleSideBar} openModal={toggleModal}/> 
