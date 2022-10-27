@@ -11,7 +11,6 @@ const Cards = () => {
     const [list, setList] = useState(false);
     const [checkOne, setCheckOne] = useState(true);
     const [checkTwo, setCheckTwo] = useState(false);
-    
     const imageUrl = 'https://image.tmdb.org/t/p/w500';
     const popularMovies = useSelector(state => state.popular); 
 
@@ -28,7 +27,7 @@ const Cards = () => {
       const handleCheckedTwo = () => {
         setCheckTwo((prevState) => ! prevState);
         setList((prevState) => ! prevState)
-        if(checkOne)setCheckOne(false)
+        if(checkOne)setCheckOne(false);
       };
 
 

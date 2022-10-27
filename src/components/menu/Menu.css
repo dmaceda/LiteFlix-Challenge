@@ -6,7 +6,7 @@
     right: 0;
     height: 100vh;
     width: 51.5%;
-    transform: translate(100%);
+    transform: translate(150%);
     transition: all 0.4s;
     z-index: 5;
 }
@@ -22,14 +22,6 @@
 .sidebar li {
     list-style: none;
     padding: 1rem 2rem;
-}
-
-.menu_nav {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    margin-right: 103px;
-    margin-top: 28px;
 }
 
 .close_xs{
@@ -50,6 +42,7 @@
     line-height: 22px;
     letter-spacing: 4px;
     text-align: left;
+    margin-left: 25px;
 }
 
 .add_movie_menu{
@@ -76,7 +69,7 @@
 
 .navbar_menu {
     margin: 0 auto;
-    width: 88%;
+    width: 78%;
     height: 40px;
     margin-top: 32px;
     display: flex;
@@ -99,6 +92,7 @@
 /*********** MEDIA QUERIES (MEDIUM DEVICES ************/
 @media screen and (max-width: 1024px) {
     
+  
 }
 
 /*********** MEDIA QUERIES (SMALL DEVICES ************/

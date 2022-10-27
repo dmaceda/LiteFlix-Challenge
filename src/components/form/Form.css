@@ -9,7 +9,12 @@
     left: 20%;
     top: 25%;
     z-index: 10;
-    transform: translateY(150%);
+    transform: translate(-150%);
+}
+
+.form_open{
+    transform: translateY(0%);
+    transition: all 0.4s;
 }
 
 .form_container {
@@ -23,9 +28,7 @@
     margin: 0 auto;
 }
 
-.form_open{
-    transform: translateY(0%);
-}
+
 
 .form_title{
     color: var(--color-primary);
@@ -253,6 +256,21 @@ margin-bottom: 24px;
     margin-top: 25px;
 }
 
+.navbar_form_xs{
+    display: none;
+}
+
+.drop_area_xs {
+    display: none;
+}
+
+.form_btn_close {
+    display: none;
+}
+
+
+
+
 /*********** MEDIA QUERIES (MEDIUM DEVICES ************/
 @media screen and (max-width: 1024px) {
     
@@ -261,18 +279,92 @@ margin-bottom: 24px;
 /*********** MEDIA QUERIES (SMALL DEVICES ************/
 @media screen and (max-width: 600px) {
     .form {
+       transform: translateY(0%);
+       transform: translate(-100%);
        width: 100%;
-       margin: 0;
        left: 0;
        top: 0;
        z-index: 10;
      }
+     .form_open{
+        transform: translate(0%);
+    }
 
      .form_container {
         width: 100%;
         margin: 0%;
-        
      }
+
+     .close_form_container {
+        display: none;
+     }
+
+     .navbar_form_xs{
+        display: flex;
+        align-items:center;
+        justify-content: space-between;
+        width: 95%;
+     }
+     .drop_area_xs {
+        border: 1px dashed #fff;
+        width: 95%;
+        height: 81px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .drop_area {
+        display: none;
+    }
+    .drop_area_xs input {
+        display: none;
+    }
+    
+    .drop_area_xs h2 {
+        color: #fff;
+        font-family: 'BebasNeue-Light';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 4px;
+        text-align: left;
+        margin-left: 10px;
+    }
+    .form_title{
+        margin-bottom: 50px;
+        margin-top: 70px;
+    }
+    #input_name {
+        width: 70%;
+        margin-bottom: 50px;
+
+    }
+    .form_btn {
+        margin-bottom: 0;
+        width: 70%;
+    }
+    
+    .form_btn_disabled {
+        margin-bottom: 0;
+        width: 70%;
+    }
+
+    .form_btn_close {
+            display: block;
+            width: 70%;
+            color: #fff;
+            border: 1px solid #FFFFFF80;
+            font-family: 'BebasNeue-Regular';
+            font-weight:400;
+            font-size: 18px;
+            letter-spacing: 4px;
+            cursor: pointer;
+            padding: 21px;
+            background: rgba(36, 36, 36, 0.5);
+    }
+    #logo_form {
+        display: none;
+    }
 }
 
 

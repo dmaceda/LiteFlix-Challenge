@@ -66,6 +66,34 @@
 
 /*********** MEDIA QUERIES (MEDIUM DEVICES ************/
 @media screen and (max-width: 1024px) {
+    .now_playing h1 {
+        font-size: 85px;
+        font-weight: 700;
+        line-height: 78px;
+        letter-spacing: 12px;
+        text-align: center;
+   }
+
+   .now_playing h5 {
+    padding-top: 214px;
+    text-align: center;
+   }
+
+   .buttons {
+    margin: 0, auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   }
+
+   .btn_1 {
+    margin-right: 0;
+   }
+
+   .btn_2 {
+    margin-top: 16px;
+   }
     
 }
 

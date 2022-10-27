@@ -3,6 +3,8 @@ import './Form.css';
 import CLIP from '../../assets/images/clip.svg';
 import CLOSE from '../../assets/images/close.svg';
 import LOGO from '../../assets/images/logo.svg';
+import AVATAR from '../../assets/images/avatar.svg';
+import MENU from '../../assets/images/menu.svg';
 
 const Form = ({ modal, closeModal, closeAndRefresh }) => {
 
@@ -83,6 +85,12 @@ const Form = ({ modal, closeModal, closeAndRefresh }) => {
                 onDragLeave={dragLeave}
                 onDrop={fileDrop}
                 > 
+                <div className="navbar_form_xs">
+                    <img className='menu'  src={MENU} alt='menú' width='27px' onClick={closeModal}/> 
+                    <img className='logo_xs' src={LOGO} alt='logo' width='113px'/>
+                    <img className='avatar_xs' src={AVATAR} alt='mi cuenta' width='40px'/> 
+                </div>
+
                 <div className="close_form_container">
                     <img src={CLOSE} alt="cerrar formulario" width='20px' onClick={closeModal}/>
                 </div>  
@@ -98,6 +106,15 @@ const Form = ({ modal, closeModal, closeAndRefresh }) => {
                         <img src={CLIP} alt="agregar archivo" width='16px'/>
                         <label id='label' htmlFor="agregar" >AGREGA UN ARCHIVO</label>
                         <h2>ARRASTRALO Y SOLTALO AQUÍ</h2>
+                        <input type="file" multiple accept='image/*' id='agregar' onChange={handleChangeImage }/>
+                    </div> 
+                }
+
+                {/* Area de carga de archivos mobile*/}
+                    {   !inputImageAux && 
+                    <div className="drop_area_xs" >
+                        <img src={CLIP} alt="agregar archivo" width='16px'/>
+                        <label id='label' htmlFor="agregar" >AGREGA UN ARCHIVO</label>
                         <input type="file" multiple accept='image/*' id='agregar' onChange={handleChangeImage }/>
                     </div> 
                 }
@@ -146,6 +163,10 @@ const Form = ({ modal, closeModal, closeAndRefresh }) => {
                     <button type='button' onClick={ saveData } className={inputImageAux && inputNameAux ? 'form_btn' : 'form_btn_disabled'}
                     disabled={!inputImageAux && !inputNameAux }>SUBIR PELÍCULA</button>
                 }
+
+                {/* Botón salir dispositivos mobile */}
+                { !success && <button type='button' onClick={closeModal} className='form_btn_close'>SALIR</button>}
+                
                                 
             </div>
     </div>

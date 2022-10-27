@@ -61,6 +61,34 @@
 
 /*********** MEDIA QUERIES (MEDIUM DEVICES ************/
 @media screen and (max-width: 1024px) {
+
+    .navbar_xl {
+        display: none;
+    }
+    .navbar_xs {
+        display: flex;
+        align-items:center;
+        justify-content: space-between;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .menu_xs {
+        transform: scaleX(-1);
+    }
+ 
+    .add_movie_container{
+        display: none;
+    }
+    .notification{
+        display: none;
+    }
+    .navbar_left{
+        justify-content: flex-end;
+    }
+
+    
+    
 }
    
    /*********** MEDIA QUERIES (SMALL DEVICES ************/

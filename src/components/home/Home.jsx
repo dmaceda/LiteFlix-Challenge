@@ -12,7 +12,6 @@ import Form from '../form/Form';
 import Cards from '../cards/Cards';
 
 
-
 const Home = () => {
 
   const dispatch = useDispatch();

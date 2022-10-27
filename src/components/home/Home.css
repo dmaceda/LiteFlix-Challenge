@@ -6,8 +6,9 @@
 
 .gral_container {
     margin: auto;
-    width: 90%;
+    width: 85%;
     padding-top: 32px;
+    
 }
 
 .lateral_container {
@@ -24,7 +25,7 @@
 
 .center_container {
     width: 75%;
-    height: 80vh;
+    height: auto;
     float: left;
 }
 
@@ -58,6 +59,56 @@
 
 /*********** MEDIA QUERIES (MEDIUM DEVICES ************/
 @media screen and (max-width: 1024px) {
+    
+    .center_container{
+        width: 100%;
+        height: auto;
+       }
+       
+       .bkg_image {
+        height: 50%;
+        animation: none;
+       }
+    
+       .degradee_container {
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 50%;
+        }
+    
+        .degradee_mobile {
+        display: block;
+        bottom: 0;
+        position: absolute;
+        width: 100%;
+        height: 193px;
+        background: linear-gradient(180deg, rgba(36, 36, 36, 0) 0%, #242424 100%);
+        position: absolute;
+        z-index: -1;
+        } 
+    
+        .gral_container {
+            padding-top: 15px;
+        }
+    
+        .lateral_container {
+            width: 100%;
+            margin-left: 0;
+        }
+        .center_container {
+            width: 100%;
+            margin: 0 auto;
+        }
+        .view_container{    
+            width: 100%;
+        }
+        .form_cont {
+            width: 100%;
+            height: 53.7%;
+        }
+
+    
     
 }
 
