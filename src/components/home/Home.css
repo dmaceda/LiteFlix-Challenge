@@ -7,14 +7,14 @@
 .gral_container {
     margin: auto;
     width: 85%;
+    height: 100%;
     padding-top: 32px;
-    
 }
 
 .lateral_container {
     margin-top: 80px;
     width: 25%;
-    height: auto;
+    height: 8%;
     float: right;
 }
 
@@ -25,7 +25,7 @@
 
 .center_container {
     width: 75%;
-    height: auto;
+    height: 94%;
     float: left;
 }
 
@@ -149,6 +149,7 @@
     .lateral_container {
         width: 100%;
         margin-left: 0;
+        margin-top: 64px;
     }
     .center_container {
         width: 100%;

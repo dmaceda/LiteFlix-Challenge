@@ -268,11 +268,105 @@ margin-bottom: 24px;
     display: none;
 }
 
+.avatar_xs{
+    border-radius: 30px;
+    cursor: pointer;
+}
+
 
 
 
 /*********** MEDIA QUERIES (MEDIUM DEVICES ************/
 @media screen and (max-width: 1024px) {
+    .form {
+        transform: translateY(0%);
+        transform: translate(-100%);
+        width: 100%;
+        left: 0;
+        top: 0;
+        z-index: 10;
+        height: 100%;
+      }
+      .form_open{
+         transform: translate(0%);
+     }
+ 
+      .form_container {
+         width: 100%;
+         margin: 0%;
+      }
+ 
+      .close_form_container {
+         display: none;
+      }
+ 
+      .navbar_form_xs{
+         display: flex;
+         align-items:center;
+         justify-content: space-between;
+         width: 95%;
+      }
+      .drop_area_xs {
+         border: 1px dashed #fff;
+         width: 95%;
+         height: 81px;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+     }
+     .drop_area {
+         display: none;
+     }
+     .drop_area_xs input {
+         display: none;
+     }
+     
+     .drop_area_xs h2 {
+         color: #fff;
+         font-family: 'BebasNeue-Light';
+         font-size: 16px;
+         font-weight: 400;
+         line-height: 19px;
+         letter-spacing: 4px;
+         text-align: left;
+         margin-left: 10px;
+     }
+     .form_title{
+         margin-bottom: 50px;
+         margin-top: 70px;
+     }
+     #input_name {
+         width: 70%;
+         margin-bottom: 50px;
+ 
+     }
+     .form_btn {
+         margin-bottom: 0;
+         width: 70%;
+     }
+     
+     .form_btn_disabled {
+         margin-bottom: 0;
+         width: 70%;
+     }
+ 
+     .form_btn_close {
+             display: block;
+             width: 70%;
+             color: #fff;
+             border: 1px solid #FFFFFF80;
+             font-family: 'BebasNeue-Regular';
+             font-weight:400;
+             font-size: 18px;
+             letter-spacing: 4px;
+             cursor: pointer;
+             padding: 21px;
+             background: rgba(36, 36, 36, 0.5);
+             margin-bottom: 150px;
+     }
+     #logo_form {
+         display: none;
+     }
     
 }
 
@@ -285,6 +379,7 @@ margin-bottom: 24px;
        left: 0;
        top: 0;
        z-index: 10;
+       height: 100%;
      }
      .form_open{
         transform: translate(0%);
@@ -340,12 +435,11 @@ margin-bottom: 24px;
 
     }
     .form_btn {
-        margin-bottom: 0;
         width: 70%;
     }
     
     .form_btn_disabled {
-        margin-bottom: 0;
+        margin: 0;
         width: 70%;
     }
 
@@ -361,10 +455,15 @@ margin-bottom: 24px;
             cursor: pointer;
             padding: 21px;
             background: rgba(36, 36, 36, 0.5);
+            margin-bottom: 150px;
     }
     #logo_form {
         display: none;
     }
+
+    
+
+
 }
 
 

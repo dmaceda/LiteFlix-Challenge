@@ -54,17 +54,17 @@ const Home = () => {
               <Form modal={modal} closeModal={toggleModal} closeAndRefresh={toggleRefresh}/> 
               
               {/* Menú lateral*/}
-              <Menu sidebar={sidebar} closeSidebar={toggleSideBar} openModal={toggleModal}/> 
+              <Menu sidebar={sidebar} closeSidebar={toggleSideBar} openModal={toggleModal}/>  
 
               {/* Fondo general caratula aleatoria */}
               <div className="degradee_container">
                 <div className="degradee_mobile"></div>
               </div>
-              <img className='bkg_image' src={featuredMovies.image} alt="caratula de la pelicula" />
+              <img className='bkg_image' src={featuredMovies.image} alt="caratula de la pelicula" /> 
 
               {/* Fondo en segundo plano*/}
-              <Backdrop sidebar={sidebar} closeSidebar={toggleSideBar} modal={modal} closeModal={toggleModal}/> 
-              <BackdropModal modal={modal} closeModal={toggleModal}/>  
+              <Backdrop sidebar={sidebar} closeSidebar={toggleSideBar} modal={modal} closeModal={toggleModal}/>  
+              <BackdropModal modal={modal} closeModal={toggleModal}/>   
 
               <div className="gral_container">
 
@@ -75,7 +75,7 @@ const Home = () => {
 
                     {/* Banner película reproduciendo.. */}
                     <div className="center_container">
-                      <Banner featuredMovies={featuredMovies}/>  
+                      <Banner featuredMovies={featuredMovies}/>   
                     </div>
                 
                     {/* Cartas películas populares */}
