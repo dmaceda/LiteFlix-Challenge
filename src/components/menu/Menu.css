@@ -24,7 +24,6 @@
     padding: 1rem 2rem;
 }
 
-
 .menu_nav {
     display: flex;
     align-items: center;
@@ -65,7 +64,6 @@
     letter-spacing: 4px;
     text-align: left;
     cursor: pointer;
-
 }
 
 .plus_menu{

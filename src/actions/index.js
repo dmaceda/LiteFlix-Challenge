@@ -19,7 +19,7 @@ import axios from "axios";
                 console.log(error);
                 }
         }
-    }
+    };
 
     //Obtener peliculas populares
     export function getPopular() {
@@ -37,4 +37,4 @@ import axios from "axios";
                 console.log(error);
                 }
         }
-    }
+    };

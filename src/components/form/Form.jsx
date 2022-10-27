@@ -18,30 +18,30 @@ const Form = ({ modal, closeModal, closeAndRefresh }) => {
         let text = e.target.value
         setInputName(text)
         setInputNameAux(text);
-    }
+    };
 
     const saveData = () => {
         localStorage.setItem('name', inputName);
         saveImage();
         setSuccess(true);
-    }
+    };
 
     const saveImage = () => {
         localStorage.setItem('image', inputImage);
-    }
+    };
 
     const dragOver = (e) => {
         e.preventDefault();
-    }
+    };
 
     const dragEnter = (e) => {
         e.preventDefault();
        
-    }
+    };
 
     const dragLeave = (e) => {
         e.preventDefault();
-    }
+    };
 
     //Cargar imagenes arrastrandolas
     const fileDrop = (e) => {
@@ -59,7 +59,7 @@ const Form = ({ modal, closeModal, closeAndRefresh }) => {
             e.preventDefault()
             setInputImage(e.target.result)
         }  
-    }
+    };
 
     // Cargar imagenes manualmente
     const handleChangeImage = (e) => {
@@ -72,7 +72,7 @@ const Form = ({ modal, closeModal, closeAndRefresh }) => {
             e.preventDefault()
             setInputImage(e.target.result)
         }
-    }
+    };
     
   return (
  
@@ -110,7 +110,6 @@ const Form = ({ modal, closeModal, closeAndRefresh }) => {
                     </div>
                 }
                 
-
                 {/* Barra de progreso de carga de archivo */}
                 {   inputImageAux && !success ?
                     <div className="progress_bar">
@@ -153,4 +152,4 @@ const Form = ({ modal, closeModal, closeAndRefresh }) => {
   )
 }
 
-export default Form
+export default Form;

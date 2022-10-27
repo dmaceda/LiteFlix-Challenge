@@ -12,8 +12,6 @@
     transform: translateY(150%);
 }
 
-
-
 .form_container {
     background-color: var(--color-bg);
     display: flex;
@@ -25,20 +23,8 @@
     margin: 0 auto;
 }
 
-
 .form_open{
     transform: translateY(0%);
-}
-
-
-.drop_area {
-    border: 2px dashed #fff;
-    width: 80%;
-    height: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 48px;
 }
 
 .form_title{
@@ -52,28 +38,35 @@
     margin-bottom: 48px;
 }
 
-
+.drop_area {
+    border: 2px dashed #fff;
+    width: 80%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 48px;
+}
 
 .drop_area input {
     display: none;
 }
 
-#label {
+.drop_area h2 {
     color: #fff;
-    cursor: pointer;
-    font-family: 'BebasNeue-Regular';
+    font-family: 'BebasNeue-Light';
     font-size: 16px;
     font-weight: 400;
     line-height: 19px;
     letter-spacing: 4px;
     text-align: left;
     margin-left: 10px;
-
 }
 
-.drop_area h2 {
+#label {
     color: #fff;
-    font-family: 'BebasNeue-Light';
+    cursor: pointer;
+    font-family: 'BebasNeue-Regular';
     font-size: 16px;
     font-weight: 400;
     line-height: 19px;
@@ -162,8 +155,6 @@
     background-color: var(--color-variant);
 }
 
-
-
 .porcent_progress {
     width: 100%;
     display: flex;
@@ -244,8 +235,7 @@
     line-height: 24px;
     letter-spacing: 4px;
     text-align: center;
-    margin-bottom: 92px;
-    
+    margin-bottom: 92px   
 }
 
 #success_congrats{
@@ -256,7 +246,6 @@ line-height: 26px;
 letter-spacing: 4px;
 text-align: center;
 margin-bottom: 24px;
-
 }
 
 #logo_form {

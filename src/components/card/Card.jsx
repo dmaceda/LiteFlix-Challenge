@@ -31,5 +31,5 @@ const Card = ({ title, image, rating, year }) => {
       )
     }   
 
-export default Card
+export default Card;
 

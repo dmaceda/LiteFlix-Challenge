@@ -26,7 +26,6 @@
     margin-right: 10px;
  }
 
-
  .card_cont_up:hover .rating_container {
     opacity: 1;
  }
@@ -35,16 +34,13 @@
     opacity: 0.2;
  }
 
-
  .card_cont_up:hover .card_title {
     font-size: 12px;
     margin-bottom: 30px; 
-
  }
 
  .card_cont_up:hover .card_play {
-    width: 24px;
-    
+    width: 24px;  
  }
 
  .card_play_up {

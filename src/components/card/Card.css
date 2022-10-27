@@ -1,5 +1,4 @@
-
- .card_cont {
+.card_cont {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -92,10 +91,6 @@
    filter: invert(100%);
  }
 
-
-
-
-
  .rating_container {
     width: 100%;
     display: flex;
@@ -148,12 +143,12 @@
 
 /*********** MEDIA QUERIES (SMALL DEVICES ************/
 @media screen and (max-width: 600px) {
-.card_cont {
-   width: 100%;
-}
-.card_play {
-   width: 48px;
-   margin-bottom: 24px;
+   .card_cont {
+      width: 100%;
+   }
+   .card_play {
+      width: 48px;
+      margin-bottom: 24px;
 }
 
 }

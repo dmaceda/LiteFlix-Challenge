@@ -44,4 +44,4 @@ const Menu = ({ sidebar,closeSidebar, openModal }) => {
   )
 }
 
-export default Menu
+export default Menu;

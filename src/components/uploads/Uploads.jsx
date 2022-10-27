@@ -10,11 +10,11 @@ const Uploads = () => {
 
   const getName = () => {
     return localStorage.getItem('name')
-  }
+  };
 
   const getImage = () => {
     return localStorage.getItem('image')
-  }
+  };
 
   useEffect(() => {
     setName(getName())
@@ -41,4 +41,4 @@ const Uploads = () => {
   )
 }
 
-export default Uploads
+export default Uploads;

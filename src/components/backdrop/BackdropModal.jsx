@@ -7,4 +7,4 @@ const BackdropModal = ({ modal, closeModal }) => {
   )
 }
 
-export default BackdropModal
+export default BackdropModal;

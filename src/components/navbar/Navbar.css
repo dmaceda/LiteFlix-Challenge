@@ -60,11 +60,11 @@
 
 
 /*********** MEDIA QUERIES (MEDIUM DEVICES ************/
-    @media screen and (max-width: 1024px) {
-    }
+@media screen and (max-width: 1024px) {
+}
    
    /*********** MEDIA QUERIES (SMALL DEVICES ************/
-   @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .navbar_xl {
         display: none;
     }
@@ -90,8 +90,7 @@
         justify-content: flex-end;
     }
 
-
-   }
+}
 
 
 

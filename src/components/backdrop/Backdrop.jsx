@@ -7,4 +7,4 @@ const Backdrop = ({ sidebar, closeSidebar }) => {
   )
 }
 
-export default Backdrop
+export default Backdrop;

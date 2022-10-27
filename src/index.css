@@ -5,20 +5,17 @@
   font-family: 'BebasNeue-Regular';
 }
 
-
 body {
   background: var(--color-bg);
   overflow-x: hidden;
   overflow-y: hidden;
 }
 
-
 :root {
   --color-bg: #242424;
   --color-primary: #64EEBC;
   --color-variant: #FF0000;
 }
-
 
 @font-face {
   font-family: BebasNeue-Light;

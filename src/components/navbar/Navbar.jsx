@@ -39,4 +39,4 @@ const Navbar = ({openSidebar, openModal}) => {
   )
 }
 
-export default Navbar
+export default Navbar;
