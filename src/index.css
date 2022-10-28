@@ -7,8 +7,6 @@
 
 body {
   background: var(--color-bg);
-  /* overflow-x: hidden;
-  overflow-y: hidden; */
 }
 
 :root {
