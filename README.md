@@ -1,10 +1,10 @@
 
-# LiteFlix Challenge :clapper:
+# LiteFlix Challenge
 
 ¡Hola!👋 
 
 
-Bienvenidxs a LiteFlix.
+Bienvenidxs a LiteFlix  :clapper: .
 
 El proyecto consiste en el desarrollo un Catálogo de Películas dinámico.
 
