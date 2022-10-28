@@ -6,12 +6,13 @@
     right: -3000px;
     height: 100%;
     width: 51.5%;
-    transition: all 0.4s;
+    transition: all 0.5s;
     z-index: 5;
 }
 
 .sidebar_open{
     right: 0;
+    
 }
 
 .close{
@@ -48,14 +49,15 @@
     height: 40px;
     background-color: transparent;
     border: none;
-    font-family: 'BebasNeue-Regular';
-    font-weight: 500;
+    font-family: 'BebasNeue-light';
+    font-weight: 700;
     color: #fff;
     font-size: 22px;
     line-height: 22px;
     letter-spacing: 4px;
     text-align: left;
     cursor: pointer;
+    margin: 55px;
 }
 
 .plus_menu{
@@ -118,15 +120,23 @@
         }
     
         .list li {
-            font-size: 16px;
+            font-size: 25px;
             line-height: 16px;
-            margin-left: 0;
+            margin-left: 15px;
+            margin-bottom: 25px;
         }
     
         .sidebar li {
             padding-left: 0;
         }
+        .add_movie_menu{
+            font-size: 25px;
+            margin-left: 15px;
+
+        }
     
+
+  
   
 }
 
@@ -163,9 +173,16 @@
         font-size: 16px;
         line-height: 16px;
         margin-left: 0;
+        margin-bottom: 10px;
     }
 
     .sidebar li {
         padding-left: 0;
+    }
+    .add_movie_menu{
+        font-size: 16px;
+        margin-left: 0;
+        margin-top: 40px;
+        margin-bottom: 20px;
     }
 }

@@ -134,6 +134,7 @@
     align-items: center;
     justify-content: flex-end;
     margin-top: 24px;
+    cursor: pointer;
 }
 
 .progress_area{
@@ -300,7 +301,7 @@ margin-bottom: 24px;
          display: flex;
          align-items:center;
          justify-content: space-between;
-         width: 95%;
+         width: 90%;
       }
       
      
@@ -380,7 +381,7 @@ margin-bottom: 24px;
         display: flex;
         align-items:center;
         justify-content: space-between;
-        width: 95%;
+        width: 90%;
      }
      .drop_area_xs {
         border: 1px dashed #fff;

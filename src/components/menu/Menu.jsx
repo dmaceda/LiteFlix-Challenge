@@ -34,10 +34,10 @@ const Menu = ({ sidebar,closeSidebar, openModal }) => {
                 <li>POPULARES</li>
                 <li>MIS PELÍCULAS</li>
                 <li>MI LISTA</li>
-                <li className='add_movie_menu' onClick={openModal}>
+                <p className='add_movie_menu' onClick={openModal}>
                     <img className='plus_menu' src={PLUS} alt='agregar película' />
-                    AGREGAR PELÍCULA
-                </li>
+                     AGREGAR PELÍCULA
+                </p>
                 <li>CERRAR SESÍON</li>
             </div>
         </div>
