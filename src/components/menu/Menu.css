@@ -12,7 +12,6 @@
 
 .sidebar_open{
     right: 0;
-    
 }
 
 .close{
@@ -72,6 +71,7 @@
     margin: 0 auto;
     width: 78%;
     height: 40px;
+    margin-left: 65px;
     margin-top: 32px;
     display: flex;
     align-items: center;
@@ -86,7 +86,7 @@
 .avatar_menu {
     border-radius: 30px;
     cursor: pointer;
-    margin-right: 25px;
+    margin-right: 8px;
 }
 
 

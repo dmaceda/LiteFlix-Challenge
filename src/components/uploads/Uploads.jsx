@@ -27,7 +27,7 @@ const Uploads = () => {
     <div className="card_cont">
             <div className="card">
               <div className="filter"></div>
-              <img className='card_image' src={image} alt="imagen no encontrada"/>
+              <img className='card_image_up' src={image} alt="imagen no encontrada"/>
               <div className="description">
                   <div className="card_play_container">     
                         <img className='card_play' src={PLAY} alt="reproducir"/>

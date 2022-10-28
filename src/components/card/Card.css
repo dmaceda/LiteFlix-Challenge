@@ -49,6 +49,14 @@
     animation: zoom 3s; 
  }
 
+ .card_image_up{
+   max-width: 100%;
+   display: block;
+   border-radius: 4px;
+   animation: zoom 3s; 
+   max-height: 200px;
+}
+
  .card{
     overflow: hidden;
     position: relative;
@@ -148,6 +156,8 @@
    .card_cont {
       width: 90%;
    }
+
+
    
 }
 
@@ -163,6 +173,9 @@
    .card_title {
       font-size: 26px;
       text-align: center;
+   }
+   .card_image_up{
+      max-height: 300px;
    }
 }
 

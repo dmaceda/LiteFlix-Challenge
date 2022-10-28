@@ -55,7 +55,7 @@ const Form = ({ modal, closeModal, closeAndRefresh }) => {
         reader.onload = (e) => {
             e.preventDefault()
             //obtengo el progreso de carga
-            setProgress(Math.round((e.loaded * 100) / e.total));
+            setProgress(Math.round((e.loaded / e.total) *100));
             //valido si hay errores de carga
             reader.onerror = () => setError(true);
             e.preventDefault()
@@ -69,7 +69,7 @@ const Form = ({ modal, closeModal, closeAndRefresh }) => {
         const reader = new FileReader();
         reader.readAsDataURL(e.target.files[0]);
         reader.onload = (e) => {
-            setProgress(Math.round((e.loaded * 100) / e.total));
+            setProgress(Math.round((e.loaded / e.total) *100));
             reader.onerror = () => setError(true);
             e.preventDefault()
             setInputImage(e.target.result)
