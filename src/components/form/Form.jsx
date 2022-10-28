@@ -59,6 +59,7 @@ const Form = ({ modal, closeModal, closeAndRefresh }) => {
             //valido si hay errores de carga
             reader.onerror = () => setError(true);
             e.preventDefault()
+            !e.target.result.includes('png', 'jpg', 'gift', 'jpeg', 'svg','pdf') && setError(true)
             setInputImage(e.target.result)
         }  
     };
@@ -72,9 +73,12 @@ const Form = ({ modal, closeModal, closeAndRefresh }) => {
             setProgress(Math.round((e.loaded / e.total) *100));
             reader.onerror = () => setError(true);
             e.preventDefault()
+            !e.target.result.includes('png', 'jpg', 'gift', 'jpeg', 'svg','pdf') && setError(true)
             setInputImage(e.target.result)
         }
     };
+
+    
     
   return (
  
@@ -147,8 +151,8 @@ const Form = ({ modal, closeModal, closeAndRefresh }) => {
                         </div>
 
                         <div className="drop_status">
-                            { inputImage && !error ? <h2 ID='load_ok'>¡LISTO!</h2> : <h2>CANCELAR</h2> }
-                            { error && <h2>REINTENTAR</h2> }
+                            { inputImage && !error ? <h2 ID='load_ok'>¡LISTO!</h2> : null}
+                            { error && <h2 id='reintentar' onClick={closeAndRefresh}>REINTENTAR</h2> }
                         </div> 
                     </div> : null
                 }
