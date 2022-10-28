@@ -21,6 +21,8 @@ Sin embargo, el catálogo puede ser actualizado por el usuario, pudiendo agregar
 
 <img src="https://img.shields.io/badge/-JavaScript-eed718?style=flat&logo=javascript&logoColor=ffffff"><img src = "https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white"><img src = "https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white"><img src="https://img.shields.io/badge/-React-000000?style=flat&logo=react&logoColor=00c8ff">
 
+  </div>
+      </br>
   <img align="center" alt="Die-Js" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/visualstudio/visualstudio-plain.svg">
  <img align="center" alt="Die-Js" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/trello/trello-plain.svg">
   <img align="center" alt="Die-Js" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/figma/figma-original.svg">
@@ -37,6 +39,10 @@ Sin embargo, el catálogo puede ser actualizado por el usuario, pudiendo agregar
  <img align="center" alt="Die-Js" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/postgresql/postgresql-original.svg">
  <img align="center" alt="Die-Js" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/sequelize/sequelize-original.svg">
  <img align="center" alt="Die-Js" height="30" width="40" src="https://github.com/devicons/devicon/blob/master/icons/mongodb/mongodb-original-wordmark.svg">
+
+
+
+</div>
 
 
 #### Link del Deploy 👇
