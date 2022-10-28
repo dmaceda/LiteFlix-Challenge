@@ -32,8 +32,8 @@ const Cards = () => {
 
 
   return (
-    <div>
-        <div className='view_container'>
+    <div className='gral_cont'>
+                <div className='view_container'>
                     <h4 className='view'>VER: </h4>
                     {
                     checkTwo ? <h4 className='view' onClick={handleDrop} ><strong>MIS PELÍCULAS</strong></h4> :
@@ -61,6 +61,7 @@ const Cards = () => {
                 </div>
             ) 
             }) : <Uploads />}
+            
     </div>
   )
 }

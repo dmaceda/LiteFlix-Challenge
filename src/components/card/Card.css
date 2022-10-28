@@ -9,6 +9,7 @@
     width: 72%;
     margin-right: 0px;
     float: right;
+    animation: right 3s ease-in;
  }
 
  .card_cont:hover .rating_container {
