@@ -4,7 +4,7 @@
 ¡Hola!👋 
 
 
-Bienvenidxs a mi LiteFlix.
+Bienvenidxs a LiteFlix.
 
 El proyecto consiste en el desarrollo un Catálogo de Películas dinámico.
 
@@ -14,7 +14,7 @@ Sin embargo, el catálogo puede ser actualizado por el usuario, pudiendo agregar
 
 
 
-![Preview de la App ](https://github.com/dmaceda/Portfolio/blob/master/port.png)
+![Preview de la App ](https://github.com/dmaceda/LiteFlix-Challenge/blob/master/src/assets/images/readme_img.png)
 
 #### Tecnologías utilizadas
 
@@ -24,4 +24,4 @@ Sin embargo, el catálogo puede ser actualizado por el usuario, pudiendo agregar
 
 #### Link del Deploy 👇
 
-Link: https://dmaceda.github.io/Portfolio/ 
+https://liteflix-three.vercel.app/
