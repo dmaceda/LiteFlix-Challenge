@@ -1,5 +1,5 @@
 
-# LiteFlix Challenge 
+# LiteFlix Challenge :clapper:
 
 ¡Hola!👋 
 
