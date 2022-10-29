@@ -168,7 +168,7 @@ const Form = ({ modal, closeModal, closeAndRefresh }) => {
                 {/* Boton de carga de película || regreso a Home*/}
                 {   success ? <button type='button' onClick={closeAndRefresh} className='form_btn'>IR AL HOME</button> :
                     <button type='button' onClick={ saveData } className={inputImageAux && inputNameAux ? 'form_btn' : 'form_btn_disabled'}
-                    disabled={!inputImageAux || !inputNameAux }>SUBIR PELÍCULA</button>
+                    disabled={!inputImageAux || !inputNameAux || error}>SUBIR PELÍCULA</button>
                 }
                 
                 {success && <div className="invisible"></div> }
