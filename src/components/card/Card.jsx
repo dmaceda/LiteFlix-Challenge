@@ -21,9 +21,9 @@ const Card = ({ title, image, rating, year }) => {
                       <img src={STAR} alt="reproducir"/>
                       <p>{rating}</p>
                     </div>
-                    <div className="year">
-                      <p>{year.substring(0, 4)}</p>
-                    </div>
+                      <div className="year">
+                        <p>{year.substring(0, 4)}</p>
+                      </div>
                   </div>
               </div>
             </div>
